@@ -11,4 +11,4 @@ build:
         packages: maven
     - script:
         name: maven build
-        code: mvn -v
+        code: mvn clean compile assembly:single
