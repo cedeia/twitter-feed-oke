@@ -52,7 +52,7 @@ spec:
           protocol: TCP
       imagePullSecrets:
         - name: wercker
----
+        
 #Deploy our container from the Oracle Container Registry to the Oracle Container Engine (Kubernetes)
 deploy-to-cluster:
   box:
