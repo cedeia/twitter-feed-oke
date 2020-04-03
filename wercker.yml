@@ -96,6 +96,7 @@ deploy-to-cluster:
       name: "Visualise Kubernetes config"
       code: cat kubernetes.yml
 
+
   - kubectl:
       name: deploy to kubernetes
       server: $KUBERNETES_MASTER
